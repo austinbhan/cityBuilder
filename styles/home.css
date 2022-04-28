@@ -1,7 +1,17 @@
 /* add home page styles here */
 
-#biomeDropDown {}
-
-#skylineDropDown {}
-
-#starWarsSelect {}
+#weather {
+    height: 500px; 
+    width: 500px;
+    background-image: url('')
+}
+#skylineDropDown {
+    height: 100px;
+    width: 100px;
+    background-image: url('')
+}
+#starWarsSelect {
+    height: 100px;
+    width: 100px;
+    background-image: url('')
+}
