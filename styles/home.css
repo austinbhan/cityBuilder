@@ -5,21 +5,23 @@
 }
 
 .main-logo {
-    height: 200px;
-    width: 300px;
+    height: 300px;
 }
 #foodsie {
-    height: 100px; 
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
     background-image: url('../assets/coffee-food.png')
 }
 #transportie {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
     background-image: url('../assets/bus-transport.png')
 }
 #parkingie {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
     background-image: url('../assets/theme-park.png')
 }
