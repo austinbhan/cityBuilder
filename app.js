@@ -57,3 +57,27 @@ parkingDropDown.addEventListener('change', () => {
 function displayStats() {
     selectionRecord.textContent = `Favorite food selection ${foodChange}, favorite transport ${transportChange} times, and favorite park ${parkingChange} times.`;
 }
+
+// Text Input Button 
+textButton.addEventListener('click', () => {
+  // get the value of the catchphrase input
+    let textFieldValue = textField.value;
+  // push the new catchphrase to the catchphrase array in state
+    textArray.push(textFieldValue);
+    console.log(textArray);
+  // clear out the form input's value so it's empty to the user
+    textField.value = ' ';
+  // update the dom to show the new catchphrases (refactor to/call displayCatchphrases to do this work)
+    displayTextInputs();
+});
+
+// A Loop Function That will push text content into the history <div>.
+function displayTextInputs() {
+// clear out the DOM for the currently displayed catchphrases
+    textFieldRecord.textContent = ' ';
+// loop through each catchphrase in state
+// and for each catchphrase
+// create an HTML element with the catchphrase as its text content
+// and append that HTML element to the cleared-out DOM
+}
+  
