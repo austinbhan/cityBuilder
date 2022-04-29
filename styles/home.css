@@ -1,17 +1,21 @@
 /* add home page styles here */
 
-#weather {
-    height: 500px; 
-    width: 500px;
-    background-image: url('')
+.pictures {
+    display: flex;
 }
-#skylineDropDown {
+
+#foodsie {
+    height: 100px; 
+    width: 100px;
+    background-image: url('../assets/cart-food.png')
+}
+#transportie {
     height: 100px;
     width: 100px;
-    background-image: url('')
+    background-image: url('../assets/bus-transport.png')
 }
-#starWarsSelect {
+#parkingie {
     height: 100px;
     width: 100px;
-    background-image: url('')
+    background-image: url('../assets/theme-park.png')
 }
