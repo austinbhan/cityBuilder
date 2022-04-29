@@ -30,6 +30,7 @@ foodDropDown.addEventListener('change', () => {
     foodChange++;
   // update DOM to reflect the new state
     foodPic.style.backgroundImage = `url('./assets/${foodDropDown.value}-food.png')`;
+    displayStats();
 });
 
 transportDropDown.addEventListener('change', () => {
@@ -39,6 +40,7 @@ transportDropDown.addEventListener('change', () => {
     transportChange++;
   // update DOM to reflect the new state
     transportPic.style.backgroundImage = `url('./assets/${transportDropDown.value}-transport.png')`;
+    displayStats();
 });
 
 parkingDropDown.addEventListener('change', () => {
@@ -48,4 +50,10 @@ parkingDropDown.addEventListener('change', () => {
     parkingChange++;
   // update DOM to reflect the new state
     parkPic.style.backgroundImage = `url('./assets/${parkingDropDown.value}-park.png')`;
+    displayStats();
 });
+
+// Display Stat Function
+function displayStats() {
+    selectionRecord.textContent = `Favorite food selection ${foodChange}, favorite transport ${transportChange} times, and favorite park ${parkingChange} times.`;
+}
