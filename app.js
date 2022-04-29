@@ -25,25 +25,27 @@ let textArray = [0];
 
 foodDropDown.addEventListener('change', () => {
    // get user input
-  console.log('you selected', foodDropDown.value);
+    console.log('you selected', foodDropDown.value);
   // use user input to update state 
-  foodChange++;
+    foodChange++;
   // update DOM to reflect the new state
-  foodPic.style.backgroundImage = `url('./assets/${foodDropDown.value}-food.png')`;
+    foodPic.style.backgroundImage = `url('./assets/${foodDropDown.value}-food.png')`;
 });
 
 transportDropDown.addEventListener('change', () => {
   // get user input
-  console.log('you selected', transportDropDown.value);
+    console.log('you selected', transportDropDown.value);
   // use user input to update state 
-  transportChange++;
+    transportChange++;
   // update DOM to reflect the new state
-  transportPic.style.backgroundImage = `url('./assets/${transportDropDown.value}-transport.png')`;
+    transportPic.style.backgroundImage = `url('./assets/${transportDropDown.value}-transport.png')`;
 });
 
 parkingDropDown.addEventListener('change', () => {
   // get user input
+    console.log('you selected', parkingDropDown.value);
   // use user input to update state 
+    parkingChange++;
   // update DOM to reflect the new state
-
+    parkPic.style.backgroundImage = `url('./assets/${parkingDropDown.value}-park.png')`;
 });
