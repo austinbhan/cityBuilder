@@ -36,8 +36,9 @@ transportDropDown.addEventListener('change', () => {
   // get user input
   console.log('you selected', transportDropDown.value);
   // use user input to update state 
+  transportChange++;
   // update DOM to reflect the new state
-
+  transportPic.style.backgroundImage = `url('./assets/${transportDropDown.value}-transport.png')`;
 });
 
 parkingDropDown.addEventListener('change', () => {
