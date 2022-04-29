@@ -4,6 +4,10 @@
     display: flex;
 }
 
+.main-logo {
+    height: 200px;
+    width: 300px;
+}
 #foodsie {
     height: 100px; 
     width: 100px;

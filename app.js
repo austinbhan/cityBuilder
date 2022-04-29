@@ -55,7 +55,7 @@ parkingDropDown.addEventListener('change', () => {
 
 // Display Stat Function
 function displayStats() {
-    selectionRecord.textContent = `Favorite food selection ${foodChange}, favorite transport ${transportChange} times, and favorite park ${parkingChange} times.`;
+    selectionRecord.textContent = `You selected your favorite food ${foodChange} times, transportation ${transportChange} times, and park ${parkingChange} times.`;
 }
 
 // Text Input Button 
